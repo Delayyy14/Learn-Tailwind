@@ -4,7 +4,7 @@
 
 setelah clone repo ini, buka vs code ketik : npm run dev
 
-maka akan di berikan port yaitu localhost:5173 , inputkan port tersebut di browser masing masing
+tujuan biar lu pada ga susah susah instal tailwind yg ribetnya kek anjing, sekian terimakasih
 
 
 
