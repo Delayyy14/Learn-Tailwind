@@ -15,6 +15,3 @@ tujuan biar lu pada ga susah susah instal tailwind yg ribetnya kek anjing, sekia
 
 
 
-
-
-installnya anj banget cuqi tailqind, lama, banyakk proses 
