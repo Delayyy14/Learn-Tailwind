@@ -6,7 +6,45 @@
     <title>Tailwind Test</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="m-6">
-    <h1 class="">Halo</h1>
+<body>
+<header class="bg-white shadow sticky top-0 z-50"><!-- Sticky di atas agar saat di scrool navbar masih tetap di atas tidak tenggelam ke scrool -->
+  <div class="flex flex-col sm:flex-row items-center justify-between p-6 mx-auto"> <!--untuk nvbar agar flexsibel-->
+    
+    <!-- Kiri: Identitas -->
+    <div class="text-center sm:text-left"> <!-- Ai -->
+      <p class="text-gray-600 text-lg  font-bold">Aku Azka</p> <!--No Ai-->
+    </div>
+
+    <!-- Kanan: Nav -->
+    <div>
+        <a href="#" class="text-black justify-between p-2 items-center">Beranda</a><!--No Ai-->
+        <a href="#" class="text-black justify-between p-2 items-center">Tentang Kami</a><!--No Ai-->
+        <a href="#" class="text-black justify-between p-2 items-center">Project</a><!--No Ai-->
+        <a href="#" class="text-black justify-between p-2 items-center">Contact us</a><!--No Ai-->
+      <a href="#"
+        class="text-white bg-blue-700 p-4 py-2 rounded hover:bg-white hover:text-blue-700 transition duration-500 ease border">
+        Contact!
+      </a><!--No Ai-->
+    </div>
+  </div>
+</header>
+ <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10"><!--Ai-->
+    
+    <!-- Kiri: Teks -->
+    <div class="md:w-1/2">
+      <h2 class="text-2xl font-bold mb-4">Halo, aku Azka</h2><!--No Ai-->
+      <p class="text-gray-700"><!--No Ai-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi praesentium illum ducimus, pariatur provident eum exercitationem quibusdam placeat quasi adipisci qui repellat suscipit voluptatum deleniti corrupti ipsum voluptatem reprehenderit eligendi.
+      </p><br>
+      <a href="#" class="border p-4 py-2 text-white bg-red-700 hover:bg-white hover:text-red-700 transition duration-400 ease rounded">Pencet</a>
+    </div>
+
+    <!-- Kanan: Gambar -->
+    <div>
+      <img src="cat.png" alt="Gambar Kucing"/><!--No Ai-->
+    </div>
+
+  </div>
+    
 </body>
 </html>
