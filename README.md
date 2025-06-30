@@ -2,9 +2,11 @@
 
 #PORT : localhost: localhost:5173
 
-setelah clone repo ini, buka vs code ketik : npm run dev
+Ketika membuka vsccode jangan lupa jalankan kode di terminal dengan perintah: npm run dev
 
-tujuan biar lu pada ga susah susah instal tailwind yg ribetnya kek anjing, sekian terimakasih
+Fall For the f*cking code
+
+Yahya Tailwind Setup
 
 
 
